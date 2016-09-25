@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ball is life</title>
+	<!-- style sheets go here -->
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<h1>choose two players</h1>
+	<form>
+		<input type="text" id="player-choice-1" placeholder="Baller 1">
+		<select name="Season">
+			<option value="2015-16">2015-16</option>
+		</select>
+		<input type="text" id="player-choice-2" placeholder="Baller 2">
+		<select name="Season">
+			<option value="2015-16">2015-16</option>
+		</select>
+		<button type="submit" id="face-off-button">1v1!</button>
+	</form>
+	<div class="container">
+    	<div id="player1_result"></div>
+    	<div id="player2_result"></div>
+	</div>
+	<h2 id="winner-result"></h2>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>

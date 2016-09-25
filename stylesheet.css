@@ -1,0 +1,33 @@
+#face-off-button {
+
+}
+
+.button-content {
+    display: none;
+    position: absolute;
+}
+
+div.container {
+    display:none;
+    width: 334px;
+}
+
+#player1_result {
+    border: 1px solid #000;
+    float: left;
+    width: 150px;
+}
+
+body {
+	background-image: url('http://www.localnews8.com/image/view/-/89114/medRes/3/-/maxh/360/maxw/640/-/8scr34z/-/NBA-logo-sized-jpg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+    
+}
+
+#player2_result {
+    border: 1px solid #000;
+    margin-left: 10px;
+    float: left;
+    width: 150px;
+}

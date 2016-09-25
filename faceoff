@@ -1,0 +1,62 @@
+faceoff
+
+version 0.1:
+every current nba player all years played stats
+ast, block, steal, reb, pts, fg%, ft%, TO, 3pt
+
+roll die (formula): multiply each stat by 0.4~1.4
+ast*1                 :AST
+block*1.75            :BLK
+steal*2               :STL
+reb*1                 :TRB
+pts*1                 :PTS
+-2*TO                 :TOV
+>50%, pts*0.5         :FG%
+<40%, -pts*0.25       :
+40-50%, 0             :
+<65%, -pts*0.10       :FT%
+>80%, pts*0.10        :
+65-80, 0              :
+3pt*0.5               :3PA
+
+steph makes 6 threes, and 5 twos, a 8, b 0, s 2, r 4, TO 3, 
+18 + 10 = 28 + 3 = 31
+
+
+whowouldwin
+oneonone
+nbafaceoff.com
+thatsturrible
+shaqtinafool <--
+ilooklikeafoollastnightfaceoff
+statsdontlie
+ballislife
+
+
+ast, block, steal, reb, pts, fg%, ft%, TO, 3pt made
+all years, current nba players
+=============================================
+choose two players
+playet 1				player 2
+_________  [year] vs ___________ [year]
+season stats
+player 1 year: {pts, rebs...}
+player 2 year: {pts, rebs...}
+
+[face off!]
+
+team logo of that year                team logo of that year
+photo                                 photo
+
+player year wins!
+
+-highlight- tonight the team won on the back of player's best_stat (if double double)
+
+tonight's stats
+player 1: {pts, rebs...}
+player 2: {pts, rebs,}
+
+tweet, facebook share this result
+
+faceoff.com/SC30_KD35/abc34Kj
+KD won! with 56 points, 20 rebounds, 20 assists, 10 blocks, first quadruple double
